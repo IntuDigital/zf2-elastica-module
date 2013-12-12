@@ -1,0 +1,15 @@
+{
+    "name": "intudigital/zf2-elastica-module",
+    "description": "Zend Framework 2 integration with Elastica library for ElasticSearch",
+    "keywords": ["zf2", "elasticsearch", "lucene", "search"],
+    "license": "MIT",
+    "type": "zf2-module",
+    "require": {
+        "zendframework/zendframework": "2.*",
+        "ruflin/elastica": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "IntuElastica": "src/" },
+        "classmap": [ "./Module.php" ]
+    }
+}
