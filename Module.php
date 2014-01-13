@@ -24,4 +24,17 @@ class Module implements InitProviderInterface, AutoloaderProviderInterface, Conf
     {
         return include __DIR__ . '/config/module.config.php';
     }
+
+    /**
+     * Initialize workflow
+     *
+     * @param  ModuleManagerInterface $manager
+     * @return void
+     */
+    public function init(ModuleManagerInterface $manager)
+    {
+
+    }
+
+
 }
